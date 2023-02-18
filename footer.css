@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+}
+
+.ft{
+    font-size: 14px;
+    line-height: 18px;
+    width: 100%;
+    clear: both;
+    height: 658.200px;
+    margin-top: 40px;
+}
+
+.primary-ft{
+    width: 100%;
+    height: 454.200px;
+    padding-top: 20px;
+    background-color: #595959;
+    overflow: hidden;
+}
+
+.inner-wrap4{
+    max-width: 1140px;
+    box-sizing: border-box;
+    height: 329px;
+    margin: 0 auto 0 auto;
+}
+
+.ft-widget{
+    padding-bottom: 15px;
+    padding-top: 1px;
+}
+
+.ft-column1{
+    margin-bottom: 20px;
+    float: left;
+    width: 21.363636%;
+    height: 267px;
+    color: #fff;
+    font-family: "Trebuchet MS",Trebuchet,Arial,Helvetica,sans-serif;
+}
+
+.ft-column2{
+    margin-bottom: 20px;
+    float: left;
+    width: 223.850px;
+    height: 127px;
+    color: #fff;
+    font-family: "Trebuchet MS",Trebuchet,Arial,Helvetica,sans-serif;
+
+}
+
+
+.ft-column2{
+    margin-bottom: 20px;
+    float: left;
+    width: 223.850px;
+    height: 127px;
+    color: #fff;
+    font-family: "Trebuchet MS",Trebuchet,Arial,Helvetica,sans-serif;
+
+}
+
+.ft-column3{
+    margin-bottom: 20px;
+    float: left;
+    width: 227.775px;
+    height: 292.600px;
+    color: #fff;
+    font-family: "Trebuchet MS",Trebuchet,Arial,Helvetica,sans-serif;
+
+}
+
+.ft-column4{
+    margin-bottom: 20px;
+    float: left;
+    width: 181.625px;
+    height: 250px;
+    color: #fff;
+    font-family: "Trebuchet MS",Trebuchet,Arial,Helvetica,sans-serif;
+
+}
+
+.ft-column5{
+    margin-bottom: 20px;
+    float: left;
+    width: 194.500px;
+    height: 175px;
+    color: #fff;
+    font-family: "Trebuchet MS",Trebuchet,Arial,Helvetica,sans-serif;
+}
+
+.inner-column-left{
+    padding-top: 0;
+    color: #fff;
+    font-family: "Trebuchet MS",Trebuchet,Arial,Helvetica,sans-serif;
+    list-style: none;
+    text-align: left;
+    padding-inline-start: 0;
+}
+
+.inner-column-left-text{
+    color: #fff;
+    font-family: "Trebuchet MS",Trebuchet,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: left;
+    padding: 5px 0;
+    line-height: 28px;
+}
+
+
+/*FOOTER-PROPERTIES*/
+.rakuten-properties{
+    height: 184px;
+    width: 100%;
+}
+
+.rakuten-footer{
+    max-width: 1140px;
+    box-sizing: border-box;
+    margin: 40px auto;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.ft-logo-container{
+    width: 262px;
+    height: 104px;
+    margin: 0;
+    float: left;
+    align-items: center;
+}
+
+.partners-link-container{
+    float: right;
+}
+
+.logo{
+    background-image: url(https://kbstatic1-a.akamaihd.net/1.0.1.2909/Images/header-footer/rakutenFooter/Rakuten_Logo_1.5X-Red.svg),linear-gradient(transparent,transparent);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.visually-hidden{
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.ft-utilities{
+    width: 1481.600px;
+    height: 88px;
+    clear: both;
+    padding-top: 2  0px;
+}
+
+.ft-utilities-ct{
+    width: 1080px;
+    height: 72px;
+    padding-bottom: 15px;
+    padding-top: 1px;
+    margin: 0 auto;
+    max-width: 1140px;
+    box-sizing: border-box;
+    border-top: 1px solid #bbb;
+
+}
+
+.ft-ut-ct{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 30.400px;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+
+.ft-ut-ct2{
+    width: 1481.600px;
+    height: 34.800px;
+    clear: both;
+    border-top: 1px solid #595959;
+}
+
+.ft-ut-ct2-h{
+    align-content: center;
+    clear: both;
+    width: 1080px;
+    height: 18px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    padding-top: 1px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+}
+
+.ft-h3{
+    font-weight: 700;
+    font-size: 18px;
+}

@@ -1,0 +1,637 @@
+body{
+    margin: 0;
+    font-family: "Trebuchet MS",Trebuchet,Arial,Helvetica,sans-serif;
+}
+
+
+.hd{
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 2px 7px rgb(0 0 0 / 30%);
+    height: 180.4px;
+    width: 100%;
+    position: relative;
+    margin: 0;
+}
+
+.hd-top{
+    background-color: #f5f5f5;
+    color: #595959;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 0;   
+}
+
+.inner-wrap{
+    box-sizing: border-box;
+    max-width: 1140px;
+    width: 100%;
+    height: 8px;
+    padding: 0 20px;
+    margin: 0 auto 22px auto;
+}
+
+/*HEADER-TOP-LEFT-SIDE*/
+.earn-rewards{
+    line-height: 30px;
+    height: 30px;
+    padding-right: 1.5rem;
+    color: #bf0000;
+    font-family: "Trebuchet MS",Trebuchet,Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 14px;
+    text-decoration: none;
+    float: left;
+    margin-right: auto;
+}
+
+.earn-rewards:hover{
+    color: #595959;
+    text-decoration: underline;
+}
+
+/*HEADER-TOP-LEFT-SIDE*/
+.hd-top-left-side{
+    display: flex;
+    vertical-align: baseline;
+    font-size: 14px;
+    justify-content: flex-end;
+}
+
+.world-flag{
+    line-height: 30px;
+    vertical-align: baseline;
+}
+
+.country-link{
+   padding: 5px 0px;
+
+}
+
+.country-flag{
+    border: 1px solid #d8d8d8;
+    vertical-align: middle;
+}
+
+.language-select{
+    width: auto;
+    border: 0;
+    font-family: "Trebuchet MS",Trebuchet,Arial,Helvetica,sans-serif;
+    color: #000;
+    position: relative;
+    margin: 0 15px 0 10px;
+
+}
+
+.lang-selector{
+    cursor: pointer;
+    min-height: 0;
+    padding: 0;
+    line-height: 30px;
+    height: 30px;
+    display: block;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,0);
+    font-size: 14px;
+    border: 0;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.selected-lang{
+    float: right;
+    padding: 0 20px;
+    position: relative;
+}
+
+.eng-select{
+    color:#595959;
+    font-size: 14px;
+    font-family: "Trebuchet MS",Trebuchet,Arial,Helvetica,sans-serif;
+    text-decoration: none;
+    line-height: 30px;
+    height: 30px;
+    padding: 0 13px;
+    width: 43.625;
+}
+
+.eng-select:hover{
+    color: #bf0000;
+    text-decoration: none;
+}
+
+.lang-list-selector{
+    position: absolute;
+    right: inherit;
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    box-shadow: none;
+
+}
+
+.eng-select:hover .lang-list-selector:hover{
+    box-sizing: border-box;
+    box-shadow: none;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;    
+}
+
+.lang-list-selector-l{
+    background-color: #fff;
+}
+
+.lang-list-selector-l{
+    box-sizing: border-box;
+    font-size: 14px;
+    color:#595959;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 25px;
+    padding-left: 8px;
+}
+
+.language-list-list{
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.icon{
+    background-image: url(https://kbstatic1-a.akamaihd.net/1.0.1.2905/Images/chevron_down_black_icon.png),linear-gradient(transparent,transparent);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 10px;
+    position: absolute;
+    right: 10px;
+    width: 26px;
+    height: 30px;
+}
+
+.icon:hover{
+    background-image: url(https://kbstatic1-a.akamaihd.net/1.0.1.2910/Images/chevron_down_red_icon.svg);
+}
+a{
+    font: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    border: 0;
+}
+
+.gc-link{
+    text-decoration: none;
+    color: #595959;
+    line-height: 30px;
+    height: 30px;
+    padding: 0 13px;
+    display: inline-block;
+}  
+
+.gc-link:hover{
+    color:#bf0000;
+}
+
+.blog-link{
+    text-decoration: none;
+    color: #595959;
+    line-height: 30px;
+    height: 30px;
+    padding: 0 13px;
+    display: inline-block;
+}
+.blog-link:hover{
+    color:#bf0000;
+}
+
+.help-link{
+    text-decoration: none;
+    color: #595959;
+    line-height: 30px;
+    height: 30px;
+    padding: 0 13px;
+    display: inline-block;
+}
+
+.help-link:hover{
+    color:#bf0000;
+}
+
+.side-feedback{
+    top: 320px;
+    position: fixed;
+    right: 0;
+}
+
+.fb-rotate{
+    transform: rotate(-90deg);
+    transform-origin: right bottom;
+}
+
+.feedback-button{
+    padding: 7px 16px;
+    border-radius: 5px 5px 0 0;
+    border: 3px solid #0065BD;
+    background-color: #0065BD;
+    color: #fff;
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: background-color 200ms,color 200ms;
+}
+
+.feedback-button:hover{
+    background-color: #f5f5f5;
+    color:#0065BD;
+}
+
+/*HEADER-BELOW*/
+.inner-wrap2{
+    box-sizing: border-box;
+    max-width: 1140px;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto 0px auto;
+    height: 141.4px;
+}
+
+.hd-below{
+    position: relative;
+    overflow: visible;
+    background-color: #fff;
+}
+
+.hd-middle{
+    display: flex;
+    height: calc(100% - 50% - 30px);
+    overflow: visible;
+    margin-top: 9px;
+    margin-bottom: 0;
+    height: 88.4px; 
+    padding: 0 20px;
+}
+
+.left-field{
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    flex: 2 2 auto;
+    max-height: 58.4px;
+    height: 100%;
+    margin-bottom: 0;
+    max-width: 662.287px;
+}
+
+.logo-holder{
+    flex-basis: 165px;
+    width: 165px;
+    height: 58px;
+    float: left;
+    display: block;
+    margin-top: 0;  
+}
+
+.logo-wrapper{
+    text-indent: 100%;
+    white-space: nowrap;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0;
+    line-height: 35px;
+    margin: 0;
+}
+
+.kobo-rakuten{
+    background-image: url(https://kbstatic1-a.akamaihd.net/1.0.1.2905/Images/logos/rakuten-kobo-landscape.svg),linear-gradient(transparent,transparent);
+    background-size: contain;
+    overflow: visible;
+    
+}
+
+.home-link{
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.search-box-input{
+    width: 477.288px;
+    height: 52.400px;
+    padding: 6px 4px 0px 20px;
+    margin-right: -4px;
+}
+
+.search-box-widget{
+    width: 477.288px;
+    height: 52.400px;
+    display: inline-block;
+    
+}
+
+.search-bar-wrap{
+    background-color: #fff;
+    max-width: 492px;
+    height: 100%;
+}
+
+.sbfh{
+    width: 100%;
+    height: 52.4px;   
+}
+
+.sbfh1{
+    display: inline-block;
+    height: 52.4px;
+}
+
+.search-fholder{
+    position: relative;
+    width: 477.288px;
+    height: 100%;
+    box-shadow: 0 0 0 #fff;
+    color: black;
+    
+}
+
+.search-field{
+    width: 477.688px;
+    height: 48px;
+    font-family: Georgia,Times,times,serif;
+    box-sizing: border-box;
+    border: 1px solid #d8d8d8;
+    outline: 0;
+    padding-left: 10px;
+    padding-right: 90px;
+    color: #000;
+}
+
+.search-field:focus{
+    border-width: 3px;
+    border-color: black;
+}
+
+
+.submit-field{
+    background-image: url(https://kbstatic1-a.akamaihd.net/1.0.1.2915/Images/header-footer/search_white_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50% auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: inline-block;
+    width: 45px;
+    height: 48px;
+    box-sizing: border-box;
+    border: none;
+    outline: 0;
+    background-color: black;
+    text-indent: 100%;
+}
+
+.right-field{
+
+    width: 437.712px;
+    height: 76px;
+    padding-top: 6px;
+    text-align: end;
+    display: inline-flex;
+    text-align: end;
+    padding-left: 120px;
+
+}
+
+.rf-icon{
+    width: 152.775px;
+    height: 58px;
+    display: flex;
+    vertical-align: top;
+}
+
+.rf-icon-wl{
+    width: 70.775px;
+    height: 57px;
+    text-align: center;
+    padding: 6px 10px 2px 10px;
+}
+
+.Wishlist{
+    font-family: "Trebuchet MS",Trebuchet,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    color: #595959;
+    text-decoration: none;
+    height: 58px;
+}
+
+.rf-icon-wl:hover{
+    color: #343232;
+    background-color: #f4f4f4;
+    font-weight: 700;
+}
+
+.icon-wishlist{
+    background-image: url(https://kbstatic1-a.akamaihd.net/1.0.1.2941/Images/header-footer/wishlist_grey_icon.svg);
+    box-sizing: content-box;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 31px;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+.text-wishlist{
+    color: #595959;
+    line-height: 13px;
+    min-height: auto;
+    display: block;
+    position: relative;
+}
+
+.rf-icon-cart{
+    width: 52px;
+    height: 58px;
+    margin: 0 15px 0 15px;
+    padding: 6px 10px 2px 10px;
+}
+
+.rf-icon-cart:hover{
+    color: #343232;
+    background-color: #f4f4f4;
+    font-weight: 700;
+}
+
+
+.Cart-holder{
+    font-family: "Trebuchet MS",Trebuchet,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    color: #595959;
+    text-decoration: none;
+    text-align: center;
+}
+
+.icon-cart{
+    background-image: url(https://kbstatic1-a.akamaihd.net/1.0.1.2941/Images/header-footer/cart-grey-icon.svg),linear-gradient(transparent,transparent);
+    box-sizing: content-box;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 32px;
+    height: 31px;
+    margin: auto;
+    padding-bottom: 5px;    
+}
+
+.text-cart{
+    color: #595959;
+    line-height: 13px;
+    font-size: 14px;
+    min-height: auto;
+    display: block;
+    position: relative;
+}
+
+.rich-header-user{
+    width: 156.688px;
+    height: 76px;
+    display: inline-block;
+}
+
+.create-account{
+    width: 156.688px;
+    height: 48px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS",Trebuchet,Arial,Helvetica,sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0);
+    background-color: #bf0000;
+    border-color: #bf0000;
+    color: #fff;
+    font-weight: 700;
+    outline: 0;
+    padding: 0 15px;
+}
+
+.cra-link{
+    line-height: 45px;
+    text-decoration: none;
+    font-family: "Trebuchet MS",Trebuchet,Arial,Helvetica,sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.hav-sig{
+    font-family: "Trebuchet MS",Trebuchet,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    color: #595959;
+    text-decoration: none;
+    text-align: center;
+}
+
+.sign-in{
+    padding: 10px 0 0;
+    color: #bf0000;
+    font-weight: 700;
+}
+
+/*HEADER-BOTTOM*/
+.hd-bottom{
+    position: absolute;
+    bottom: 0;
+    max-height: 53px;
+    height: 53px;
+    width: 1140px;
+    vertical-align: baseline;
+    padding: 0;
+}
+
+.hd-main-navigation{
+    margin: 0;
+    display: inline-block;
+    width: 1140px;
+    height: 53px;
+    text-align: left;
+    padding-left: 12px;
+}
+
+.tab-nav{
+    position: absolute;
+    bottom: 0;
+    width: 1140px;
+    height: 53px;
+    display: inline-block;
+    
+}
+
+.main-nav{
+    height: 53px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.ebooks-nav{
+    position: relative;
+    display: inline-block;
+    width: 111.713px;
+    height: 53px;
+}
+
+.audiobooks-nav{
+    position: relative;
+    display: inline-block;
+    width: 152.363px;
+    height: 53px;
+}
+
+.ar-nav{
+    position: relative;
+    display: inline-block;
+}
+
+.ebooks-nav-list{
+    list-style: none;
+    height: 0px;
+}
+
+.toggle{
+    font-size: 18px;
+    font-family: "Trebuchet MS",Trebuchet,Arial,Helvetica,sans-serif;
+    color: #0d0d0d;
+    padding: 12px 13px 20px 8px;
+    margin-right: 5px;
+    background-color: white;
+    border: none;
+   
+}
+
+.icon1{
+    background-image: url(https://kbstatic1-a.akamaihd.net/1.0.1.2915/Images/chevron_down_black_icon.png);
+    background-size: 12px 7px;
+    background-position: right center;
+    width: 12px;
+    height: 9px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 5px;
+}

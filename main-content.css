@@ -1,0 +1,472 @@
+.content{
+    max-width: 1140px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-height: 6734.450px;
+    height: 100%;
+}
+
+.content-top{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.mct-widget{
+    max-width: 1100px;
+    height: 550.787px;
+    padding: 20px 20px 0;
+}
+
+.mct-widget1{
+    margin: 0 auto;
+    max-width: 1140px;
+    box-sizing: border-box;
+    max-height: 532.188px;
+    height: 100%;
+    border-bottom: #d8d8d8 1px solid;
+}
+
+.caroulsel-container{
+    margin: 20px 38px 10px;
+    height: 18px;
+}
+
+.caroulsel-badget{
+    background-color: #006265;
+    border-radius: 3px;
+    padding: 3px 6px;
+    color: #fff;
+    width: 55.31px;
+    height: 22px;
+}
+
+.caroulsel-badget11{
+    background-color: #910048;
+    border-radius: 3px;
+    padding: 3px 6px;
+    color: #fff;
+    width: 55.31px;
+    height: 22px;
+}
+
+.mc-widget1{
+    padding: 0 38px 0 38px;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    height: 27.988px;
+    width: 1024px;
+  
+}
+
+.caroulsel-header1{
+    font-family: inherit;
+    
+}
+
+.caroulsel-header-text{
+    align-items: flex-start;
+    width: 1024px;
+}
+
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.tittle-wrapper{
+    float:left;
+    width: 935.050px;
+    padding-right: 30px;
+    margin: 0;
+}
+
+.tittle{
+    width: 600px;
+    height: 27.988px;
+    margin-bottom: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.tittle5{
+    width: 800px;
+}
+
+.primary-heading{
+    font: inherit;
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.primary-heading:hover{
+    color: #cc3333;
+}
+
+.view-all-container{
+    float: right;
+    
+    font: inherit;
+    color: black;
+    font-weight: 600;
+}
+
+.primary-link{
+    font: inherit;
+    color: black;
+    font-size: 16px;
+    text-align: right;
+}
+
+.primary-link:hover{
+    color: #cc3333;
+}
+
+.item-container{
+    margin-left: 0;
+    max-width: 140px;
+    padding: 20px 0;
+    max-height: 389px;
+}
+
+.book-cover{
+    max-width: 140;
+    max-height: 220px;
+}
+
+.caroulsel-body-container{
+    max-height: 498.188px;
+    height: 100%;
+    padding-top: 0;
+}
+
+.caroulsel-items-container{
+    margin-top: 20px;
+    margin-bottom: 6px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    padding-left: 6px;
+    margin-left: -6px;
+    padding-right: 6px;
+    margin-right: -6px;
+}
+
+.caroulsel-items-holder{
+    padding-left: 38px;
+}
+
+.caroulsel-items{
+    width: 1024px;
+    height: 447.800px;
+    vertical-align: top;
+    position: relative;
+    padding-left: 6px;
+    margin-left: -6px;
+    padding-right: 6px;
+    margin-right: -6px;
+}
+
+.book-item1{
+    margin-left: 0;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 140px;
+    height: 389px;
+    padding: 20px 0;
+}
+
+.book-info{
+    height: 389px;
+}
+
+.book-info-item1{
+    display: block;
+    height: 389px;
+    text-decoration: none;
+}
+
+.notranslate-tittle{
+    position: relative;
+    height: 220px;
+    vertical-align: baseline;
+}
+
+.notranslate-tittle:hover{
+    opacity: 80%;
+}    
+
+.book-cover1{
+    vertical-align: bottom;
+    height: auto;
+    width: 140px;
+    object-fit: contain;
+    object-position: center bottom;
+    border: 0;
+}
+
+.details-container{
+    height: 108px;
+}
+
+.book-details{
+    height: 108px;
+    font-family: "Trebuchet MS",Trebuchet,Arial,Helvetica,sans-serif;
+    margin-top: 16px;
+    text-decoration: none;
+}
+
+.book-name{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 20px;
+    margin-top: 2px;
+}
+
+.book-tittle-name{
+    font: inherit;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.author-name{
+    margin-top: 3px;
+    width: 140px;
+    height: 20px;
+}
+
+.author-name-text{
+    font: inherit;
+    vertical-align: baseline;
+    font-size: 14px;
+    color: #595959;
+    margin:0;
+    line-height: 17.5px;
+}
+
+.book-rating{
+    min-height: 18px;
+    margin-top: 3px;
+}
+
+.star{
+    background-image: url(https://kbstatic1-a.akamaihd.net/1.0.1.2941/Images/ratings/star-full.svg),linear-gradient(transparent,transparent);
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.star0{
+    background-image: url(https://kbstatic1-a.akamaihd.net/1.0.1.2941/Images/ratings/star-empty.svg),linear-gradient(transparent,transparent);
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.star05{
+    background-image: url(https://kbstatic1-a.akamaihd.net/1.0.1.2941/Images/ratings/star-half.svg),linear-gradient(transparent,transparent);
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.book-price{
+    font-family: "Trebuchet MS",Trebuchet,Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+    white-space: normal;
+    line-height: 17.5px;
+    margin: 0;
+}
+
+.product-price{
+    margin: 0;
+}
+
+.book-delivery-detail{
+    width: 140px;
+    height: 18px;
+    font-family: "Trebuchet MS",Trebuchet,Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #bf0000;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+}
+
+.book-cart{
+    height: 35px;
+    margin-top: 7px;
+    width: 140px;
+}
+
+.book-cart-button{
+    margin-top: 0;
+    white-space: normal;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    border-width: 3px;
+    border-color: #595959;
+    border-style: solid;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    background-color: #595959;
+    color: white;
+}
+
+.book-cart-button:hover{
+    color: #595959;
+    background-color: #fff;
+}
+
+.book-item2{
+    float:  right;
+    width: 140px;
+    height: 393.400px;
+    margin-left: 33px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    padding: 20px 0 ;
+}
+
+.mct-widget2{
+margin: 0 auto;
+    max-width: 1140px;
+    box-sizing: border-box;
+    max-height: 532.188px;
+    height: 100%;
+    border-bottom: white 1px solid;
+}
+
+.content-top4{
+    width: 1140px;
+    height: 553.650px;
+
+}
+
+.mct-widget4{
+    width: 1140px;
+    height: 553.650px;
+    padding: 20px 20px 0;
+}
+
+.caroulsel-badget4{
+    font-family: "Trebuchet MS",Trebuchet,Arial,Helvetica,sans-serif;
+    font-size: 22px;
+}
+
+.caroulsel-badget4:hover{
+    color:#cc3333;
+}
+
+.primary-heading4{
+    font-family: "Trebuchet MS",Trebuchet,Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    color: #595959;
+    text-decoration: none;
+}
+
+.product-type-icon{
+    position: absolute;
+    bottom: 15px;
+    left: 5px;
+    background-image: url(https://kbstatic1-a.akamaihd.net/1.0.1.2941/Images/product/product-icon-tandy.svg),linear-gradient(transparent,transparent);
+    display: block;
+    height: 27px;
+    width: 27px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+
+.content-top11{
+    width: 1140px;
+    height: 496.587px;
+
+}
+
+.book-item11{
+    margin-left: 0;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 140px;
+    height: 389px;
+    padding: 20px 0;
+}
+
+.caroulsel-items11{
+    width: 1024px;
+    height: 336.400px;
+    vertical-align: top;
+    position: relative;
+    padding-left: 6px;
+    margin-left: -6px;
+    padding-right: 6px;
+    margin-right: -6px;
+}
+
+.caroulsel-body-container11{
+    max-height: 498.188px;
+    height: 100%;
+    padding-top: 0;
+}
+
+.book-item21{
+    float:  right;
+    width: 140px;
+    height: 263.400px;
+    margin-left: 33px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    padding: 20px 0 ;
+}
+
+.book-item11{
+    margin-left: 0;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 140px;
+    height: 263.400px;
+    padding: 20px 0;
+}
+
+.mct-widget11{
+    width: 1140px;
+    height: 496.587px;
+    padding: 20px 20px 0;
+}

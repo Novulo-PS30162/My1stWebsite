@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+}
+
+.kobo-main{
+    height: 7160px;
+    min-height: 100%;
+    max-width: 1519.200px;
+    width: 100%;
+}
+
+.main-content{
+    max-width: 1519.200px;
+    width: 100%;
+    height: 7076.610px;
+}
+
+.full-top{
+    padding-top: 0;
+    height: 342.163px;
+}
+
+.banner-widget{
+    max-height: 342.163px;
+    height: 100%;
+    max-height: 1140px;
+}
+
+.banner-holder{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 1140px;
+    min-width: 320px;
+}
+
+.inner-wrap3{
+    box-sizing: border-box;
+    max-width: 1140px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto 0 auto;
+}
+
+.prima-content{
+    max-width: 760.375px;
+    width: 760.375px;
+    
+}
+
+.banner{
+    background-image: url(https://kbmerch1-a.akamaihd.net/magento/banner/2019/WW/20190708-K6801_1-WW-Top50/hero.svg),url(https://kbmerch1-a.akamaihd.net/magento/banner/2019/WW/20190708-K6801_1-WW-Top50/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: 760.375px 342.163px;
+    width: 760.375px;
+    height: 342.163px;
+    margin: 0;
+    
+}
+
+.banner{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.hide-text{
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+}
+/*SIDE-BANNER*/
+.side-content{
+    box-sizing: border-box;
+    position: relative;
+    width: 33%;
+    float: right;
+    height: 169.288px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.side-banner-widget{
+    display: block;
+    background-image: url(https://kbmerch1-a.akamaihd.net/magento/banner/2019/WW/20190708-K6802_1-WW-PersonalRecos/mobile.svg), url(https://kbmerch1-a.akamaihd.net/magento/banner/2019/WW/20190708-K6802_1-WW-PersonalRecos/mobile.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100% 99%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.side-content2{
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    width: 33%;
+    float: right;
+    height: 169.288px;
+    top: 170px;
+    bottom: 0;
+    right: 0;
+    left: 376px;
+}
+
+.side-banner-widget2{
+    background-image: url(https://kbmerch1-a.akamaihd.net/magento/banner/2019/WW/20190708-K6803_1-WW-NewReleases/mobile.svg), url(https://kbmerch1-a.akamaihd.net/magento/banner/2019/WW/20190708-K6803_1-WW-NewReleases/mobile.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100% 99%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+}
